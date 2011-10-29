@@ -1,0 +1,1 @@
+lib/Exporter/Auto.pm
