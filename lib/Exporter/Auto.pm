@@ -36,7 +36,14 @@ Exporter::Auto - Export public functions automatically.
 
 =head1 SYNOPSIS
 
+    package Foo;
     use Exporter::Auto;
+
+    sub foo { }
+
+    package main;
+    use Foo;
+    foo();  # <= this function was exported!
 
 =head1 DESCRIPTION
 
