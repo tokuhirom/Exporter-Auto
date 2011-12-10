@@ -51,7 +51,7 @@ I'm tired to push function names to @EXPORT. Perl5 should add functions automati
 
 =head1 AUTHOR
 
-Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF GMAIL COME<gt>
+Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>
 
 =head1 SEE ALSO
 
