@@ -14,6 +14,7 @@ my $build = Module::Build->new(
         'parent'                        => '0',
         'Sub::Identify' => 0,
         'B::Hooks::EndOfScope' => 0,
+        perl => '5.008005',
     },
 
     no_index    => { 'directory' => [ 'inc' ] },

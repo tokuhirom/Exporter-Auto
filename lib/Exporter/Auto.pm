@@ -1,7 +1,7 @@
 package Exporter::Auto;
 use strict;
 use warnings;
-use 5.008008;
+use 5.008005;
 our $VERSION = '0.01';
 
 use Sub::Identify qw(stash_name);
