@@ -57,7 +57,7 @@ Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>
 
 =head1 LICENSE
 
-Copyright (C) Tokuhiro Matsuno
+Copyright (C) Tokuhiro Matsuno <TOKUHIROM @ GMAIL COM
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
