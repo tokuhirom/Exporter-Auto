@@ -55,6 +55,9 @@ Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>
 
 =head1 SEE ALSO
 
+This module uses magical L<B::Hooks::EndOfScope>.
+If you think this module is too clever, please try L<Module::Functions> instead.
+
 =head1 LICENSE
 
 Copyright (C) Tokuhiro Matsuno <TOKUHIROM @ GMAIL COM
