@@ -15,7 +15,8 @@ sub import {
     unshift @{"${klass}::ISA"}, 'Exporter';
 
     on_scope_end {
-        while (my ($k, $v) = each %{"${klass}::"}) {
+        my %hash = %{"${klass}::"};
+        while (my ($k, $v) = each %hash) {
             next if $k =~ /^(?:BEGIN|CHECK|END)$/;
             next if $k =~ /^_/;
             next unless *{"${klass}::${k}"}{CODE};
