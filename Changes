@@ -2,6 +2,10 @@ Revision history for Perl extension Exporter::Auto
 
 {{$NEXT}}
 
+0.03 2013-05-15T13:31:36Z
+
+    - minil release
+
 0.02 2013-02-08T08:18:52
 
     - doc improvements
