@@ -17,7 +17,7 @@ sub import {
     on_scope_end {
         my %hash = %{"${klass}::"};
         while (my ($k, $v) = each %hash) {
-            next if $k =~ /^(?:BEGIN|CHECK|END)$/;
+            next if $k =~ /^(?:BEGIN|CHECK|END|INIT|UNITCHECK)$/;
             next if $k =~ /^_/;
             next unless *{"${klass}::${k}"}{CODE};
             next if $klass ne stash_name($klass->can($k));
