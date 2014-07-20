@@ -3,6 +3,7 @@ Revision history for Perl extension Exporter::Auto
 {{$NEXT}}
 
     - Ignore UNITCHECK and INIT
+    - Added github repo to pod
 
 0.03 2013-05-15T13:31:36Z
 

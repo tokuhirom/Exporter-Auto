@@ -50,6 +50,10 @@ Exporter::Auto - Export public functions automatically.
 
 I'm tired to push function names to @EXPORT. Perl5 should add functions automatically!!!111
 
+=head1 REPOSITORY
+
+L<https://github.com/tokuhirom/Exporter-Auto>
+
 =head1 AUTHOR
 
 Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>
