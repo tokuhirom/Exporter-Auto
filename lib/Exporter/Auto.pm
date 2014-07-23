@@ -17,7 +17,7 @@ sub import {
     on_scope_end {
         my %hash = %{"${klass}::"};
         while (my ($k, $v) = each %hash) {
-            next if $k =~ /^(?:BEGIN|CHECK|END)$/;
+            next if $k =~ /^(?:BEGIN|CHECK|END|INIT|UNITCHECK)$/;
             next if $k =~ /^_/;
             next unless *{"${klass}::${k}"}{CODE};
             next if $klass ne stash_name($klass->can($k));
@@ -49,6 +49,10 @@ Exporter::Auto - Export public functions automatically.
 =head1 DESCRIPTION
 
 I'm tired to push function names to @EXPORT. Perl5 should add functions automatically!!!111
+
+=head1 REPOSITORY
+
+L<https://github.com/tokuhirom/Exporter-Auto>
 
 =head1 AUTHOR
 
