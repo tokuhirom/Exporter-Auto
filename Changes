@@ -2,6 +2,8 @@ Revision history for Perl extension Exporter::Auto
 
 {{$NEXT}}
 
+    - Renamed current SEE ALSO to DEPENDENCIES, and added a SEE ALSO section
+      that describes a selection of the other exporter modules.
     - Tweaked abstract
     - Added DESCRIPTION
     - Ignore UNITCHECK and INIT

@@ -92,10 +92,28 @@ L<https://github.com/tokuhirom/Exporter-Auto>
 
 Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>
 
-=head1 SEE ALSO
+=head1 DEPENDENCIES
 
 This module uses magical L<B::Hooks::EndOfScope>.
 If you think this module is too clever, please try L<Module::Functions> instead.
+
+=head1 SEE ALSO
+
+L<Exporter> is the grandaddy of all Exporter modules, and bundled with Perl
+itself, unlike the rest of the modules listed here.
+
+L<Sub::Exporter> is a "sophisticated exporter for custom-built routines";
+it lets you provide generators that can be used to customise what
+gets imported when someone uses your module.
+
+L<Exporter::Tiny> provides the same features as L<Sub::Exporter>,
+but relying only on core dependencies.
+
+L<Exporter::Declare> provides Moose-style functions used to define
+what your module exports in a declarative way.
+
+L<Exporter::Lite> is a lightweight exporter module, falling somewhere
+between C<Exporter::Auto> and L<Exporter>.
 
 =head1 LICENSE
 
