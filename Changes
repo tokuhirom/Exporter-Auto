@@ -2,6 +2,8 @@ Revision history for Perl extension Exporter::Auto
 
 {{$NEXT}}
 
+0.04 2014-08-16T18:45:21Z
+
     - Renamed current SEE ALSO to DEPENDENCIES, and added a SEE ALSO section
       that describes a selection of the other exporter modules.
     - Tweaked abstract
